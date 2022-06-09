@@ -18,12 +18,12 @@ const Header = () => {
   
         </li>
         
-        <Link to="/" className="custom-btn">Downlod Resume</Link>
+        <a href="https://drive.google.com/file/d/1FkvESxgugaw-TRUbbGNQEH8gLvaT0HLt/view?usp=sharing" className="custom-btn">Downlod Resume</a>
       <Link to ="/contact" className=" custom-btn">contact</Link>
       </ul>
     </div>
 <div>
-<Link to ="/home" className=" text-3xl">ꉣꋫ꒒ꋫꌚꑛ</Link>
+<Link to ="/home" className=" logo text-3xl">ꉣꋫ꒒ꋫꌚꑛ</Link>
 
 </div>
   </div>
@@ -35,7 +35,7 @@ const Header = () => {
         
       </li>
       
-      <Link to="/" className=" custom-btn ">Download Resume</Link>
+      <a href="https://drive.google.com/file/d/1FkvESxgugaw-TRUbbGNQEH8gLvaT0HLt/view?usp=sharing" className=" custom-btn ">Download Resume</a>
       <Link to ="/contact" className=" custom-btn ml-4">contact</Link>
     </ul>
   </div>

@@ -1,0 +1,19 @@
+
+.projects1{
+    width: 100%;
+    
+   background-image: url(../../img/project1.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.custom-card{
+    width: 100%;
+    position: relative;
+
+}
+.content {
+    top: 0px;
+    width: 100%;
+    position: absolute;
+}

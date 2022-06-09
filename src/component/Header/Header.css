@@ -32,3 +32,8 @@
     transition: .2s;
     cursor: pointer;
 }
+@media screen and (max-width: 480px) {
+    .logo{
+        font-size: 1.4rem;
+    }
+}
