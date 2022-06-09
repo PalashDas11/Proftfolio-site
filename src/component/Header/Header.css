@@ -20,3 +20,15 @@
     text-transform:uppercase;
 
 }
+.custom-btn2{
+    padding: 8px 22px;
+    color: black;
+    /* border: 1px solid #5352ed; */
+    background-color:  #64ffda;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    
+    transition: .2s;
+    cursor: pointer;
+}

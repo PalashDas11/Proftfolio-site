@@ -1,0 +1,43 @@
+.underline{
+    width: 60px;
+    background: #64ffda;
+    height: 3px;
+    margin-top:6px;
+    margin-left: 10px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 30px;
+    /* height: 50px; */
+    text-align: center;
+    background: #64ffda;
+    
+}
+.taxtArea{
+   padding: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        background-color: #262626;
+        color: white;
+    }
+  
+    .custom-form input{
+        width: 90%;
+        
+        
+    }
+    .taxtArea{
+        width: 90%;
+        margin: auto;
+        
+    }
+    
+  }
