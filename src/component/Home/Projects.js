@@ -19,7 +19,7 @@ const Projects = () => {
                             <div class="badge badge-secondary">NEW</div>
                         </h2>
                         <a href="https://tools-place.web.app/" className='custom-btn2 text-center'>view site</a>
-                        <a href="#" className='custom-btn2 text-center'>Site Details</a>
+                        {/* <a href="#" className='custom-btn2 text-center'>Site Details</a> */}
                         
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const Projects = () => {
                             <div class="badge badge-secondary">NEW</div>
                         </h2>
                         <a href="https://omega-grocery.web.app/" className='custom-btn2 text-center'>view site</a>
-                        <a href="#" className='custom-btn2 text-center'>Site Details</a>
+                        {/* <a href="#" className='custom-btn2 text-center'>Site Details</a> */}
                         
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const Projects = () => {
                            
                         </h2>
                         <a href="https://fitcoach.netlify.app/" className='custom-btn2 text-center'>view site</a>
-                        <a href="#" className='custom-btn2 text-center'>Site Details</a>
+                        {/* <a href="#" className='custom-btn2 text-center'>Site Details</a> */}
                         
                     </div>
                 </div>
