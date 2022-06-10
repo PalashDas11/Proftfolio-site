@@ -1,0 +1,9 @@
+.about-img img{
+    max-width: 300px;
+    border-radius: 200px;
+}
+.about-section{
+    width: 70%;
+    /* padding-top: 14rem; */
+    margin: 0px auto;
+}

@@ -5,17 +5,24 @@ import React from 'react';
 
 const Contact = () => {
     const handleForm = event => {
-        event.preventDefault();
-        console.log(event);
-        const name = event.target.name.value;
-        const email = event.target.email.value;
-        const phone = event.target.number.value;
-        const textArea = event.target.text.value;
-        console.log(name, email, phone, textArea);
+        // event.preventDefault();
+        // console.log(event);
+        // const name = event.target.name.value;
+        // const email = event.target.email.value;
+        // const phone = event.target.number.value;
+        // const textArea = event.target.text.value;
+        // console.log(name, email, phone, textArea);
+
+        // emailjs.sendForm('service_wzf0mrq', 'template_1g43cqb', 'wps-QV3qD_Uu3BOL0')
+        // .then((result) => {
+        //     console.log(result.text);
+        // }, (error) => {
+        //     console.log(error.text);
+        // });
     }
     
     return (
-        <div className="w-full mt-7">
+        <div className="w-full pt-28">
             <div className="flex justify-center items-center ">
                 <h1 className="text-center text-2xl text-primary  ">Contact Me</h1>
                 <span className='underline '></span>
@@ -47,11 +54,11 @@ const Contact = () => {
                 {/* form  */}
 
                 <div className='pt-5 custom-form'>
-                    <form action="" onSubmit={handleForm}>
-                        <input name="name" type="text" placeholder="Your name" className="input input-bordered text-black  w-96" /> <br />
-                        <input name="email" type="email" placeholder="Your Email" className="input input-bordered text-black my-5 w-96" /> <br />
+                    <form onSubmit={handleForm}>
+                        <input name="user_name" type="text" placeholder="Your name" className="input input-bordered text-black  w-96" /> <br />
+                        <input name="email" type="user_email" placeholder="Your Email" className="input input-bordered text-black my-5 w-96" /> <br />
                         <input name="number" type="phone" placeholder="Phone" className="input input-bordered text-black w-96 mb-5" /><br />
-                        <textarea className=" taxtArea input-bordered text-black mt-5 w-96" name="text" id="" cols="40" rows="10" placeholder="Enter your message" ></textarea>
+                        <textarea className=" taxtArea input-bordered text-black mt-5 w-96" name="message" id="" cols="40" rows="10" placeholder="Enter your message" ></textarea>
                         <div><input type="submit" value="Submit" className="custom-btn2 " /></div>
                     </form>
                 </div>
