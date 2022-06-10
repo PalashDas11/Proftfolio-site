@@ -3,23 +3,7 @@ import { faEnvelope, faLocation, faPhone } from '@fortawesome/free-solid-svg-ico
 import './Contact.css'
 import React from 'react';
 
-const Contact = () => {
-    const handleForm = event => {
-        // event.preventDefault();
-        // console.log(event);
-        // const name = event.target.name.value;
-        // const email = event.target.email.value;
-        // const phone = event.target.number.value;
-        // const textArea = event.target.text.value;
-        // console.log(name, email, phone, textArea);
-
-        // emailjs.sendForm('service_wzf0mrq', 'template_1g43cqb', 'wps-QV3qD_Uu3BOL0')
-        // .then((result) => {
-        //     console.log(result.text);
-        // }, (error) => {
-        //     console.log(error.text);
-        // });
-    }
+const Contact = () => { 
     
     return (
         <div className="w-full pt-28">
@@ -54,7 +38,7 @@ const Contact = () => {
                 {/* form  */}
 
                 <div className='pt-5 custom-form'>
-                    <form onSubmit={handleForm}>
+                    <form action="https://formspree.io/f/xnqwrzlq" method="POST">
                         <input name="user_name" type="text" placeholder="Your name" className="input input-bordered text-black  w-96" /> <br />
                         <input name="email" type="user_email" placeholder="Your Email" className="input input-bordered text-black my-5 w-96" /> <br />
                         <input name="number" type="phone" placeholder="Phone" className="input input-bordered text-black w-96 mb-5" /><br />

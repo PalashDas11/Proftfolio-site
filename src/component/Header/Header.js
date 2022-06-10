@@ -15,6 +15,7 @@ const Header = () => {
         <li><Link to ="home">Home</Link></li>
         <li tabIndex="0">
           <Link to ="/projects" className="justify-between"> Projects</Link>
+          <Link to ="/blog" className="justify-between"> Blog</Link>
   
         </li>
         
@@ -32,6 +33,8 @@ const Header = () => {
       <li><Link to ="home">Home </Link></li>
       <li tabIndex="0">
         <Link to ="projects">Projects</Link>
+        <Link to ="/blog" className="justify-between"> Blog</Link>
+
         
       </li>
       
