@@ -2,7 +2,29 @@
     background-color: #262626;
     color: white;
 } */
+.custom-hero-content{
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+.custom-hero-img{
+  animation: 1s ease-out 0s 1 slideInFromRight;
+}
 
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 @media screen and (min-width: 480px) {
     .hero-img img{
         max-width: 500px;

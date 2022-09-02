@@ -5,26 +5,19 @@
     padding: 11px 22px;
     color: white;
     /* border: 1px solid #5352ed; */
-    border : 1px solid #64ffda;
+    /* border : 1px solid #F49F1C; */
     border-radius: 25px;
     font-weight: 600;
     text-transform:uppercase;
     transition: .2s;
 }
    
-.custom-btn:hover{
-    padding: 11px 22px;
-    /* color: white; */
-    color: black;
-    background: #64ffda;
-    text-transform:uppercase;
 
-}
 .custom-btn2{
     padding: 8px 22px;
     color: black;
     /* border: 1px solid #5352ed; */
-    background-color:  #64ffda;
+    background-color:  #F49F1C;
     border-radius: 25px;
     font-size: 1rem;
     font-weight: 600;
