@@ -1,5 +1,7 @@
-.font-header {
-    font-family:  "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+.header {
+    font-family: Ubuntu;
+    position:sticky;
+    background: #080808;
 }
 .custom-btn{
     padding: 11px 22px;
@@ -17,16 +19,73 @@
     padding: 8px 22px;
     color: black;
     /* border: 1px solid #5352ed; */
-    background-color:  #F49F1C;
+    background-color:  #ff6801;
     border-radius: 25px;
     font-size: 1rem;
     font-weight: 600;
-    
+    text-transform: uppercase;
     transition: .2s;
     cursor: pointer;
 }
-@media screen and (max-width: 480px) {
-    .logo{
-        font-size: 1.4rem;
+nav a{
+    margin-right: 20px;
+    position: relative;
+    
+    text-transform: uppercase;
+    
+
+}
+nav a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -8px;
+    left:0;
+    /* background-color:#F49F1C; */
+    transform: scale(0);
+    transform-origin: left;
+    z-index: 1;
+    transition: .8s;
+}
+nav a:hover:before{
+    background-color:#ff6801;
+    transform: scale(1);
+
+}
+.header{
+    animation: 1s ease-out 0s 1 slideInFromTop;
+}
+
+.custom-nav {
+    /* display: none; */
+    position: relative;
+   
+}
+
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
     }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+@media screen and (max-width: 600px) {
+   
+    .custom-nav {
+        display: none;
+        position: relative;
+       
+    }
+    .custom-nav nav  {
+        display: block;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+    }
+    
+ 
 }
