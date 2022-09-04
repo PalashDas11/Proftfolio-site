@@ -11,14 +11,14 @@ import logo from "../../img/logo.png";
 import { useState } from "react";
 
 const Header = () => {
-  const [mobile, setMobile] = useState(false);
+  const [mobile, setMobile] = useState(true);
   return (
     <div className="flex justify-between items-center px-5 header sticky top-0 ">
       <div>
         <img src={logo} alt="" srcset="" width="80px" />
       </div>
-      <div className={ mobile ? `custom-nav`: setMobile}>
-        <nav>
+      <div>
+        <nav className={ mobile ? `custom-nav`: `nav-link-mobile`}>
           <Link to="/">Home</Link>
           <Link to="/projects">Project</Link>
           <Link to="/blog">Blog</Link>
