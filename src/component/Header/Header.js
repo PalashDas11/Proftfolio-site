@@ -28,7 +28,7 @@ const Header = () => {
           </button>
         </nav>
       </div>
-      <button onClick={ () => setMobile(!mobile)}>
+      <button className="nav-icon" onClick={ () => setMobile(!mobile)}>
         {mobile ? (
           <FontAwesomeIcon className="Bars" icon={faBars}></FontAwesomeIcon>
         ) : (

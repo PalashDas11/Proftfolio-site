@@ -62,6 +62,9 @@ nav a:hover:before{
     position: relative;
    
 }
+.nav-icon{
+    display: none;
+}
 
 @keyframes slideInFromTop {
     0% {
@@ -79,6 +82,11 @@ nav a:hover:before{
         display: none;
         position: relative;
        
+    }
+    .nav-icon{
+        display: block;
+        font-size: 1.5rem;
+        color: #ff6801;
     }
     .nav-link-mobile  {
         width: 100%;
