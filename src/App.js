@@ -20,7 +20,7 @@ function App() {
         <Route path="/blog"element={<Blog/>}></Route>
         <Route path="*"element={<NotFound/>}></Route>
       </Routes>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }

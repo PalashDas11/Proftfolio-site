@@ -8,10 +8,11 @@ import Services from './Services';
 const Home = () => {
     return (
         <div className="px-5">
-            {/* <Hero></Hero>
-            <Services></Services>
+            <Hero></Hero>
+           
             <About></About>
-            <Projects></Projects>
+            {/* <Services></Services> */}
+            {/* <Projects></Projects>
             <Contact></Contact> */}
         </div>
     );

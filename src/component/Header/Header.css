@@ -3,24 +3,29 @@
     position:sticky;
     background: #080808;
 }
-.custom-btn{
-    padding: 11px 22px;
+.custom-btn1{
+    padding: 15px 30px;
     color: white;
-    /* border: 1px solid #5352ed; */
-    /* border : 1px solid #F49F1C; */
-    border-radius: 25px;
+    border: 1px solid #ff6801;;
+    /* background-color:  #ff6801; */
+    border-radius: 5px;
+    font-size: 1.2rem;
     font-weight: 600;
-    text-transform:uppercase;
+    /* text-transform: uppercase; */
     transition: .2s;
+    cursor: pointer;
 }
-   
-
+.custom-btn1:hover{
+    background:#000000;
+    color: white;
+    transition: .5s;
+}
 .custom-btn2{
     padding: 8px 22px;
-    color: black;
-    /* border: 1px solid #5352ed; */
-    background-color:  #ff6801;
-    border-radius: 25px;
+    color: white;
+    border: 1px solid #ff6801;;
+    /* background-color:  #ff6801; */
+    border-radius: 5px;
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -102,7 +107,5 @@ nav a:hover:before{
         width: 100%;
         margin: 20px 0px;
     }
- 
-    
- 
+  
 }

@@ -1,9 +1,42 @@
-.about-img img{
-    max-width: 300px;
-    border-radius: 200px;
+.about-img img {
+  max-width: 300px;
+  border-radius: 50%;
+  border-right: 4px solid white;
 }
-.about-section{
-    width: 70%;
-    /* padding-top: 14rem; */
-    margin: 0px auto;
+.about-img {
+  position: relative;
+}
+/* .about-img::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 330px;
+    height: 330px;
+    
+    /* background-color: white; 
+    border: 2px solid white;
+    z-index: 1;
+
+} */
+.about-skills h6:before {
+  content: ">>";
+  padding-right: 5px;
+}
+
+.about-animate{
+    animation: AboutAminate 5s ;
+    /* transform-origin: top; */
+    transition: 2s;
+}
+/* === Anmation === */
+@keyframes AboutAminate {
+  from {
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
