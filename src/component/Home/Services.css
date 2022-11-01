@@ -1,3 +1,31 @@
-.service-section img{
-     width: 80px;
+.service-section {
+  max-width: 100%;
+}
+.service-section img {
+  margin: 0 auto;
+  width: 80px;
+}
+.service-section-head {
+  width: 100%;
+  background-color: rgb(27, 26, 26);
+}
+.card-custom {
+  background-color: rgb(27, 26, 26);
+  box-shadow: 1px 5px 5px 5px rgb(13, 13, 13);
+}
+@media screen and (max-width: 992px) {
+  .service-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .service-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-custom {
+    width: 200px;
+    margin: 0 auto;
+  }
 }

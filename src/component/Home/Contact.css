@@ -24,11 +24,8 @@
 }
 
 @media screen and (max-width: 480px) {
-    body{
-        background-color: #262626;
-        color: white;
-    }
-  
+
+
     .custom-form input{
         width: 90%;
         
