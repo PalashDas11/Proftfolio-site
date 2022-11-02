@@ -25,7 +25,32 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .card-custom {
-    width: 200px;
+    width: 300px;
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 420px) {
+  .service-section-head{
+    padding: 0px;
+  }
+  .service-section{
+    padding: 0px;
+  }
+  .card-custom {
+    width: 280px;
+    margin: 10px auto;
+
+  }
+  .card-custom {
+    
+  }
+  .card-custom h1{
+    font-size: 16px;
+  }
+  .card-custom p{
+    font-size: 12px;
+  }
+  .card-custom a{
+    font-size: 0.7rem;
   }
 }
