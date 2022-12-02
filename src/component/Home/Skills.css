@@ -1,0 +1,24 @@
+.front-skill {
+    padding: 20px;
+    font-weight: 600;
+}
+.radial-progress:after{
+    display: none;
+}
+.progress::-webkit-progress-bar{
+    background:white;
+}
+.progress::-webkit-progress-value{
+    background-color: red;
+}
+@media screen and (max-width: 425px) {
+    /* .skill-section {
+      padding: 10px;
+      width: 76%;
+      background-color: white
+      
+    } */
+    .progress {
+        max-width: 90%;
+    }
+}
